@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A N C Airpod Pro TWS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #111;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 20px;
+            display: flex;
+            gap: 50px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .product-image {
+            flex: 1;
+            min-width: 300px;
+            text-align: center;
+        }
+        .product-image img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 25px;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease;
+        }
+        .product-image img:hover {
+            transform: scale(1.05);
+        }
+        .product-details {
+            flex: 1;
+            min-width: 300px;
+        }
+        .product-details h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #111;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .product-details p {
+            margin-bottom: 12px;
+            font-size: 1rem;
+        }
+        .price {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #e53935;
+            margin: 25px 0;
+        }
+        .btn-buy {
+            background: linear-gradient(135deg, #e53935, #d32f2f);
+            color: white;
+            padding: 15px 35px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: 0.4s;
+            font-weight: 600;
+        }
+        .btn-buy:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 25px rgba(229,57,53,0.4);
+        }
+        .features, .reviews {
+            background-color: white;
+            padding: 40px 60px;
+            margin: 50px auto;
+            max-width: 1000px;
+            border-radius: 25px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.08);
+        }
+        .features h3, .reviews h3 {
+            font-size: 2rem;
+            margin-bottom: 25px;
+            color: #111;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .features ul {
+            list-style: none;
+        }
+        .features li {
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+            font-size: 1.05rem;
+        }
+        .reviews .review {
+            padding: 18px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .reviews .review:last-child {
+            border-bottom: none;
+        }
+        .review strong {
+            display: block;
+            margin-bottom: 5px;
+            color: #111;
+        }
+        footer {
+            text-align: center;
+            padding: 25px;
+            background-color: #111;
+            color: white;
+            font-size: 0.9rem;
+            margin-top: 60px;
+        }
+        /* Responsive */
+        @media (max-width: 900px) {
+            .container {
+                flex-direction: column-reverse;
+                gap: 30px;
+            }
+            .product-image img {
+                max-width: 90%;
+            }
+            .features, .reviews {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>A N C Airpod Pro TWS</h1>
+</header>
+
+<div class="container">
+    <div class="product-image">
+        <img src="14c6a899-76c1-45cf-957f-599fdcd504b1.png" alt="A N C Airpod Pro">
+    </div>
+    <div class="product-details">
+        <h2>Premium True Wireless Earphones</h2>
+        <p><strong>Color:</strong> White</p>
+        <p><strong>Compatibility:</strong> All Smartphones</p>
+        <p><strong>Battery Charge Time:</strong> 1 Hour</p>
+        <p><strong>Play Time:</strong> 10 Hours</p>
+        <p><strong>Bluetooth Range:</strong> 10m</p>
+        <p><strong>Noise Cancelling:</strong> Yes</p>
+        <p><strong>Mic:</strong> Yes</p>
+        <p><strong>Type:</strong> TWS</p>
+        <p class="price">₹4,999</p>
+        <button class="btn-buy">Buy Now</button>
+    </div>
+</div>
+
+<div class="features">
+    <h3>Features</h3>
+    <ul>
+        <li>Ultra-lightweight and ergonomic design for comfort.</li>
+        <li>Crystal clear sound with deep bass.</li>
+        <li>Seamless connectivity with all smartphones.</li>
+        <li>Noise cancellation for immersive listening experience.</li>
+        <li>Compact charging case for on-the-go charging.</li>
+    </ul>
+</div>
+
+<div class="reviews">
+    <h3>Customer Reviews</h3>
+    <div class="review">
+        <strong>Ravi K.</strong>
+        <p>Excellent sound quality and battery life. Totally worth it!</p>
+    </div>
+    <div class="review">
+        <strong>Priya S.</strong>
+        <p>Comfortable to wear, and noise cancellation works perfectly.</p>
+    </div>
+    <div class="review">
+        <strong>Arjun M.</strong>
+        <p>Stylish design and easy connectivity. Very happy with the purchase.</p>
+    </div>
+</div>
+
+<footer>
+    &copy; 2025 A N C. All rights reserved.
+</footer>
+
+</body>
+</html>
